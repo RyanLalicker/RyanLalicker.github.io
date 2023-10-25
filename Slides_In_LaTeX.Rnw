@@ -1,0 +1,58 @@
+\documentclass{beamer}
+
+% ------   First slide --------
+% Title = my name
+\title{Ryan Lalicker}
+
+\author{My birthday is April 24 and I am from Goodland, KS}
+
+\date{I am in the Statistics Department here at UNL and plan to graduate in May 2025.}
+
+\usepackage{graphicx}
+%\graphicspath{ {/hw10-professional-communication-RyanLalicker/} }
+
+<<echo=FALSE, fig.width=4, fig.height=4, out.width = '.7\\textwidth'>>=
+
+library(ggplot2)
+
+penguinsR <- readr::read_csv('penguins.csv', show_col_types = FALSE)
+
+@
+
+%-------------------------Beginning of document----------------
+
+\begin{document}
+
+% run the title slide
+\frame{\titlepage}
+
+% Animal slide
+\begin{frame}
+\frametitle{My cats - Garfield and Mika}
+
+\includegraphics[scale = .18]{cats.png}
+
+\end{frame}
+% End of animal slide
+
+% Graph slide - I got help setting up the frame from Carson
+\begin{frame}[fragile]
+\frametitle{My very ugly plot}
+
+<<echo=FALSE, fig.width=10, fig.height=7>>=
+
+#library(ggplot2)
+
+#penguinsR <- readr::read_csv('penguins.csv', show_col_types = FALSE)
+
+ggplot(data = penguinsR, aes(x = year, y = bill_length_mm, color = species)) + geom_line() + scale_color_manual(values = c("Adelie" = "red", "Chinstrap" = "maroon", "Gentoo" = "yellow")) + theme(panel.background = element_rect("darkgreen")) + labs(title = "Penguine bill length by year", x = "Year", y = "Length of bill (mm)")
+
+
+@
+
+\end{frame}
+% End of graph slide
+
+
+
+\end{document}
