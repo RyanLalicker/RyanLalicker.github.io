@@ -9,9 +9,10 @@
 \date{I am in the Statistics Department here at UNL and plan to graduate in May 2025.}
 
 \usepackage{graphicx}
-%\graphicspath{ {/hw10-professional-communication-RyanLalicker/} }
+\usepackage{hyperref}
 
-<<echo=FALSE, fig.width=4, fig.height=4, out.width = '.7\\textwidth'>>=
+
+<<echo=FALSE, fig.width=4, fig.height=4, out.width = '.7\\textwidth', include=FALSE>>=
 
 library(ggplot2)
 
@@ -54,5 +55,13 @@ ggplot(data = penguinsR, aes(x = year, y = bill_length_mm, color = species)) + g
 % End of graph slide
 
 
+% Start of CV link slide.
+\begin{frame}
 
+\href{https://github.com/RyanLalicker/RyanLalicker.github.io/blob/14111b33cfb883da8ba9a2036364c838d95f5767/LaTeXTemplates_moderncv-cv-and-cover-letter_v1.3/MockCV.pdf}{My joke CV}
+
+\end{frame}
+% End of CV slide.
+
+% End of document
 \end{document}
