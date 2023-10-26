@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.25)  25 OCT 2023 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.26)  26 OCT 2023 12:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/ryanlalicker/Desktop/LaTeXTemplates_moderncv-cv-and-cover-letter_v1.3/MockCV.tex
-(/Users/ryanlalicker/Desktop/LaTeXTemplates_moderncv-cv-and-cover-letter_v1.3/MockCV.tex
+**"/Users/ryanlalicker/Desktop/Fall 23/STAT 850/RyanLalicker.github.io/LaTeXTemplates_moderncv-cv-and-cover-letter_v1.3/MockCV.tex"
+(/Users/ryanlalicker/Desktop/Fall 23/STAT 850/RyanLalicker.github.io/LaTeXTemplates_moderncv-cv-and-cover-letter_v1.3/MockCV.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-23>
 (./moderncv.cls
@@ -465,12 +465,12 @@ Package rerunfilecheck Info: File `MockCV.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  12646 strings out of 476364
- 208528 string characters out of 5798423
+ 208650 string characters out of 5798423
  1940033 words of memory out of 5000000
  34202 multiletter control sequences out of 15000+600000
  609473 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 79i,12n,93p,1080b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,93p,1122b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/ryanlalicker/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmro10.pfb></Users/ryanlalicker/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss10.pfb></Users/ryanlalicker/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss12.pfb></Users/ryanlalicker/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss17.pfb></Users/ryanlalicker/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></Users/ryanlalicker/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></Users/ryanlalicker/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></Users/ryanlalicker/Library/TinyTeX/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
 Output written on MockCV.pdf (1 page, 170252 bytes).
 PDF statistics:
